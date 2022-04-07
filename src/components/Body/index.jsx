@@ -13,8 +13,8 @@ const Body = () => {
             const element = document.getElementById('blob')
             if (element) {
                 element.style.position = "absolute";
-                element.style.top = `${top}px`
-                element.style.left = `${left}px`
+                element.style.top = `${top-50}px`
+                element.style.left = `${left-50}px`
             }
             console.log(top,left)
         }, [top,left]
